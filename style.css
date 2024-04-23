@@ -1,0 +1,297 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: linear-gradient(to bottom, #e6e6e6, #dddddd);
+    height: 410vh;
+    font-family: "Cinzel", serif;
+  }
+  
+  .phutu-box > img {
+    height: 100%;
+    width: 100%;
+  }
+  .phutu-box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+    overflow: hidden;
+  }
+  
+  .pp {
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
+  
+  .container {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+  }
+  
+  .head {
+    position: relative;
+    align-self: center;
+    color: #4b4b4b;
+    font-size: 1.3rem;
+    text-align: end;
+    font-family: "Cinzel", serif;
+  }
+  
+  nav,
+  nav ul {
+    display: flex;
+  }
+  
+  nav {
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  
+  .head span {
+    font-size: 25px;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-decoration: none;
+    text-decoration-color: white;
+    font-size: 1.2rem;
+    gap: 2rem;
+  }
+  
+  a {
+    text-decoration: none;
+    transition: all 300ms ease;
+    text-decoration-color: wheat;
+    color: #4b4b4b;
+  }
+  
+  a:hover {
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+  }
+  
+  #logo {
+    font-size: 1.4rem;
+  }
+  
+  #abt-me > p {
+    padding: 20px;
+  }
+  
+  #about {
+    margin-top: 20vh;
+    height: 100vh;
+  }
+  .abt-title {
+    text-align: center;
+  }
+  
+  h5 {
+    padding-top: 80px;
+  }
+  #side-photo {
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  #side-photo img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #info {
+    height: 400px;
+    width: 800px;
+    /* border: #4b4b4b solid; */
+  }
+  
+  #abt-cnt {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+  }
+  
+  #edu {
+    width: 300px;
+    height: 150px;
+    border: #4b4b4b solid;
+    border-radius: 30px;
+    text-align: center;
+  }
+  #info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #edu i {
+    padding-top: 20px;
+  }
+  
+  #skills {
+    height: 100vh;
+  }
+  #sk-head {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .article {
+    width: 40%;
+    /* border: #4b4b4b solid; */
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  #sk-box1 {
+    height: 500px;
+    text-align: center;
+    width: 500px;
+    border: #4b4b4b solid;
+    border-radius: 30px;
+  }
+  
+  #sk-box i {
+    display: inline;
+    font-size: 1.2rem;
+  }
+  
+  #sk-box h4 {
+    display: inline;
+    font-size: 20px;
+    font-weight: 550;
+  }
+  
+  #sk-box-cnt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+  
+  #sk-box h2 {
+    font-weight: 600;
+  }
+  #sk-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  #sk-box2-cnt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  #sk-box2 {
+    height: 500px;
+    text-align: center;
+    width: 500px;
+    border: #4b4b4b solid;
+    border-radius: 30px;
+  }
+  #sk-box h2 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  
+  #contact h4 {
+    text-align: center;
+    padding-top: 20vh;
+  }
+  
+  #contact h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  #contact {
+    height: 90vh;
+    text-align: center;
+  }
+  
+  #links {
+    height: 100px;
+    width: 40%;
+    border: #4b4b4b solid;
+    border-radius: 60px;
+    position: relative;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.5rem;
+    margin-bottom: 130px;
+  }
+  
+  #contact > a {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 1210px) {
+    #about {
+      height: 150vh;
+    }
+  
+    #abt-me {
+      width: 800px;
+    }
+  }
+  
+  @media (max-width: 1090px) {
+    #skills {
+      height: 170vh;
+    }
+    #sk-box2 {
+      height: 300px;
+    }
+    #abt-me {
+      width: 600px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    #links {
+      width: 70%;
+      left: 15%;
+    }
+    #abt-me {
+      width: 400px;
+    }
+  }
+  
+  footer {
+    height: 10vh;
+    text-align: center;
+    background-color: #dddddd;
+  }
